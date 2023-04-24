@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Animated Monkey Login Form</title>
+  </head>
+  <body>
+    <div class="monkeylogin">
+      <div class="monkey" id="monkey">
+        <img src="img/monkey-hand.png" alt="" id="hands">
+      </div>
+      <div class="form">
+        <form>
+          <input type="email" placeholder="Email" autocomplete="off" onclick="openEye()" />
+          <br/> <br/>
+
+          <input type="password" placeholder="Password" onclick="closeEye()" />
+          <br/> <br/>
+        </form>
+      </div>
+
+      <div class="footerBtn">
+        <button class="btn login" role="button" onclick="openEye()">Login</button>
+        <button class="btn account" role="button">Create an account</button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

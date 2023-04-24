@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #191c1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.monkeylogin {
+    width: 405px;
+    height: 100%;
+    margin-top: 88px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}
+.monkey {
+    background-color: #fff;
+    margin-top: 90px;
+    overflow: hidden;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    background-image: url(img/monkey.gif);
+    background-size: 90% 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.monkey img {
+    margin-top: 110%;
+    height: 170px;
+    width: 170px;
+    transition: 1s;
+}
+.form {
+    margin-top: 38px;
+}
+input {
+    height: 40px;
+    width: 350px;
+    padding: 10px;
+    background-color: #1d131e;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    text-indent: 15px;
+    font-size: 100%;
+    font-weight: bold;
+    outline: none;
+}
+input::placeholder {
+    color: #676565;
+    font-size: 100%;
+    text-indent: 15px;
+    font-weight: lighter;
+}
+.footerBtn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.login {
+    margin-bottom: 30px;
+}
+.btn {
+    position: relative;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    user-select: none;
+    touch-action: manipulation;
+    cursor: pointer;
+}
+.btn:active {
+    top: 5px;
+    left: 5px;
+    box-shadow: 0px 0px 0px 0px;
+}
+.account {
+    opacity: 0.3;
+    transition: all 0.2s ease-in;
+}
+.account:hover {
+    opacity: 1;
+}
