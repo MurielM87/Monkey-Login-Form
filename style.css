@@ -100,3 +100,12 @@ input::placeholder {
 .account:hover {
     opacity: 1;
 }
+
+@media screen and (max-width: 375px) {
+    .monkeylogin {
+        width: 90%;
+    }
+    input {
+        width: 100%;
+    }
+}
